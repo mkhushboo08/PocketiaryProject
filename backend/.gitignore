@@ -1,0 +1,84 @@
+#<<<<<<< HEAD
+#HELP.md
+#=======
+#backend/HELP.md
+#>>>>>>> acaec93 (setup spring boot backend and react frontend)
+#target/
+#.mvn/wrapper/maven-wrapper.jar
+#!**/src/main/**/target/
+#!**/src/test/**/target/
+#
+#### STS ###
+#.apt_generated
+#.classpath
+#.factorypath
+#.project
+#.settings
+#.springBeans
+#.sts4-cache
+#
+#### IntelliJ IDEA ###
+#.idea
+#*.iws
+#*.iml
+#*.ipr
+#
+#### NetBeans ###
+#/nbproject/private/
+#/nbbuild/
+#/dist/
+#/nbdist/
+#/.nb-gradle/
+#build/
+#!**/src/main/**/build/
+#!**/src/test/**/build/
+#
+#### VS Code ###
+#.vscode/
+#
+#<<<<<<< HEAD
+#
+#=======
+#>>>>>>> acaec93 (setup spring boot backend and react frontend)
+#/target
+#/.idea
+#/.vscode
+#*.log
+#*.env
+#application.properties
+#application.yml
+#<<<<<<< HEAD
+#=======
+#
+#node_modules/
+#>>>>>>> acaec93 (setup spring boot backend and react frontend)
+
+
+
+# IntelliJ / IDE
+.idea/
+.vscode/
+*.iml
+
+# Java / Spring
+target/
+*.class
+.mvn/
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment
+.env
+application.properties
+application.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
