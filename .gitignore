@@ -1,27 +1,42 @@
-# ===== OS =====
+# ===============================
+# OS FILES
+# ===============================
 .DS_Store
 Thumbs.db
 
-# ===== Environment =====
-.env
-*.log
-
-# ===== IntelliJ =====
+# ===============================
+# IDEs
+# ===============================
 .idea/
+.vscode/
 *.iml
 
-# ===== VS Code =====
-.vscode/
+# ===============================
+# JAVA / SPRING BOOT
+# ===============================
+target/
+*.class
+*.jar
+*.war
+.gradle/
+.mvn/
 
-# ===== Node / React =====
+# ===============================
+# NODE / REACT
+# ===============================
 node_modules/
 dist/
 build/
 
-# ===== Spring Boot / Java =====
-target/
-*.jar
-*.war
+# ===============================
+# LOGS
+# ===============================
+*.log
 
-# ===== Dependency caches =====
-.gradle/
+# ===============================
+# ENV / SECRETS
+# ===============================
+.env
+.env.*
+application.properties
+application.yml
